@@ -50,7 +50,7 @@
     }
   </style>
 
-  <title>Implicit Representations for Robotic Manipulation - RSS 2022 - July 1</title>
+  <title>Robot Policy Learning under Physics Priors - RSS 2025</title>
 
 </head>
 
@@ -88,9 +88,9 @@
   <div class="container">
     <div class="row" id="home">
       <div class="col p-lg-5 mx-auto text-center">
-        <h1 class="titleLine display-5 font-weight-normal">Implicit Representations for Robotic Manipulation</h1>
-        <p class="lead font-weight-normal"><a href="https://roboticsconference.org/" target="_blank" rel="noopener noreferrer">RSS 2022</a> Workshop</p>
-        <p class="lead font-weight-normal">July 1, 2022</p>
+        <h1 class="titleLine display-5 font-weight-normal">Robot Policy Learning under Physics Priors</h1>
+        <p class="lead font-weight-normal"><a href="https://roboticsconference.org/" target="_blank" rel="noopener noreferrer">RSS 2025</a> Workshop</p>
+        <p class="lead font-weight-normal">2025</p>
         <h1 class="display-5 font-weight-normal"><a href="https://www.youtube.com/playlist?list=PLfF8jFeyEb59OwSqCZM2RuW6VhPPFvK0s" target="_blank" rel="noopener noreferrer">Youtube Channel - Recordings</a></h1>
       </div>
     </div>
@@ -102,18 +102,10 @@
       <div class="col">
         <h3>Overview</h3>
         <p>
-          The computer vision and robotics communities have recently seen tremendous success in
-          powerful, accurate visual reconstructions via implicit scene representations
-          (neural radiance fields, signed distance functions, etc.).
-          Similarly, there have been amazing successes in implicit policy representations for complex tasks.
-          However, it remains unclear how to create or use such implicit representations within robotics
-          for arbitrary manipulation tasks.
+          The field of robotics is constantly evolving, requiring robots to operate effectively in complex and unstructured environments. A critical aspect of this capability is the ability of robots to learn policies for tasks such as motion planning, manipulation, and control. For robots to operate in unstructured environments, they need policy learning methods that demonstrate three key characteristics: (1) Training Efficiency: These methods should have low computational complexity during training to enable easy deployment in unknown domains. (2) Inference Efficiency: They must be able to provide solutions to motion planning, manipulation, or control problems in nearly real-time. (3) Adaptability: The methods should be adaptable to complex and high-dimensional robot spaces. While recent advancements have led to both model-based and model-free policy learning approaches, many of these methods fall short in one or more of the aforementioned areas. For instance, Reinforcement Learning and Imitation Learning approaches tend to be inefficient in terms of training, while traditional search or sampling-based methods for policy learning often struggle with inference efficiency.  
         </p>
         <p>
-          Given the exciting, rapidly-evolving state of the art in implicit representations,
-          this workshop seeks to bring together a variety of speakers and participants in robotic manipulation,
-          robot learning, planning, and computer vision to explore which role implicit representations can play
-          in solving robotics tasks.
+          This workshop aims to explore how integrating physics priors—structured knowledge about the physical world or Partial Differential Equations—into robot policy learning can enhance training efficiency, inference efficiency, and adaptability to unstructured complex environments. It will serve as an interdisciplinary and collaborative platform for researchers in robot motion planning, control, physics-informed machine learning, and computational mathematics to exchange insights and knowledge. The goal is to discuss pathways toward developing physics-driven policy learning methods that support scalable and efficient robot learning in practical scenarios.
         </p>
       </div>
     </div>
@@ -124,44 +116,29 @@
         <p>
           <ul class="invitedSpeakerList">
             <li>
-              <a href="https://homes.cs.washington.edu/~fox/" target="_blank">Dieter Fox</a> [<a href="https://youtu.be/6fNFoSlwaXs" target="_blank">Recorded Talk</a>]
+              <a href="https://homes.cs.washington.edu/~fox/" target="_blank">Jan Peters</a> 
               <br>
-              University of Washington, NVIDIA
+              TU Darmstadt
             </li>
             <li>
-              <a href="https://people.kth.se/~dani/" target="_blank">Danica Kragic</a> [<a href="https://youtu.be/QKoueMy_v9M" target="_blank">Recorded Talk</a>]
+              <a href="https://people.kth.se/~dani/" target="_blank">Sylvia Herbert</a> 
               <br>
-              KTH
+              University of California San Diego
             </li>
             <li>
-              <a href="https://yunzhuli.github.io/" target="_blank">Yunzhu Li</a>, <a href="https://dannydriess.github.io/" target="_blank">Danny Driess</a> [<a href="https://youtu.be/gawSKjA9skU" target="_blank">Recorded Talk</a>]
+              <a href="https://yunzhuli.github.io/" target="_blank">Chuchu Fan</a>
               <br>
-              MIT, TU Berlin
+              Massachusetts Institute of Technology
             </li>
             <li>
-              <a href="https://jiajunwu.com/" target="_blank">Jiajun Wu</a>
+              <a href="https://jiajunwu.com/" target="_blank">Guanya Shi</a>
               <br>
-              Stanford University
+              Carnegie Mellon University
             </li>
             <li>
-              <a href="https://animesh.garg.tech/" target="_blank">Animesh Garg</a> [<a href="https://youtu.be/1VgqrSNRnHA" target="_blank">Recorded Talk</a>]
+              <a href="https://animesh.garg.tech/" target="_blank">Nima Fazeli</a> 
               <br>
-              University of Toronto
-            </li>
-            <li>
-              <a href="https://scholar.google.com/citations?user=Vzr1RukAAAAJ" target="_blank">Igor Mordatch</a> [<a href="https://youtu.be/c6YyhigylDU" target="_blank">Recorded Talk</a>]
-              <br>
-              Google Brain
-            </li>
-            <li>
-              <a href="https://www.vincentsitzmann.com/" target="_blank">Vincent Sitzmann</a> [<a href="https://youtu.be/gwSP5vaxVVw" target="_blank">Recorded Talk</a>]
-              <br>
-              MIT
-            </li>
-            <li>
-              <a href="https://andyzeng.github.io/" target="_blank">Andy Zeng</a> [<a href="https://youtu.be/ZIjNF39QKCI" target="_blank">Recorded Talk</a>]
-              <br>
-              Google Robotics
+              University of Michigan
             </li>
           </ul>
         </p>
@@ -172,71 +149,7 @@
     <div class="row" id="Contributions">
       <div class="col">
         <h3>Accepted Contributions</h3>
-        <p>
-          <ul class="invitedSpeakerList">
-            <li>
-              <a href="contributions/lambert.pdf" target="_blank">Learning Implicit Priors for Motion Optimization</a>
-              <br>
-              Alexander Lambert, An T. Le, Julen Urain, Georgia Chalvatzaki, Byron Boots, Jan Peters
-            </li>
-            <li>
-              <a href="contributions/ta.pdf" target="_blank">Conditional Energy-Based Models for Implicit Policies: The Gap between Theory and Practice</a>
-              <br>
-              Duy-Nguyen Ta, Eric Cousineau, Huihua Zhao, Siyuan Feng
-            </li>
-            <li>
-              <a href="contributions/mcgowen.pdf" target="_blank">Representations for Scheduling of Heterogeneous Computation to Support Motion Planning</a>
-              <br>
-              Justin McGowen, Ismet Dagli, Mehmet Belviranli, Neil Dantam
-            </li>
-            <li>
-              <a href="contributions/lewis.pdf" target="_blank">NeRF-Frenemy: Co-Opting Adversarial Learning for Autonomy-Directed Co-Design</a>
-              <br>
-              Stanley Lewis, Bahaa Aldeeb, Anthony Opipari, Elizabeth A. Olson, Cameron Kisailus, Odest Chadwicke Jenkins
-            </li>
-            <li>
-              <a href="contributions/lin.pdf" target="_blank">Active View Planning for Radiance Fields</a>
-              <br>
-              Kevin Lin, Brent Yi
-            </li>
-            <li>
-              <a href="contributions/ha.pdf" target="_blank">Deep Visual Constraints: Neural Implicit Models for Manipulation Planning from Visual Input</a>
-              <br>
-              Jung-Su Ha, Danny Driess, Marc Toussaint
-            </li>
-            <li>
-              <a href="contributions/zhao.pdf" target="_blank">Integrating Symmetry into Differentiable Planning</a>
-              <br>
-              Linfeng Zhao, Xupeng Zhu, Lingzhi Kong, Robin Walters, Lawson L.S. Wong
-            </li>
-            <li>
-              <a href="contributions/chen.pdf" target="_blank">Neural Motion Fields: Encoding Grasp Trajectories as Implicit Value Functions</a>
-              <br>
-              Yun-Chun Chen, Adithyavairavan Murali, Balakumar Sundaralingam, Wei Yang, Animesh Garg, Dieter Fox
-            </li>
-            <li>
-              <a href="contributions/tekden.pdf" target="_blank">Affordance Transfer based on Self-Aligning
-                Implicit Representations of Local Surfaces</a>
-              <br>
-              Ahmet Tekden, Marc Peter Deisenroth, Yasemin Bekiroglu
-            </li>
-            <li>
-              <a href="contributions/jad.pdf" target="_blank">Implicit Object Mapping With Noisy Data</a>
-              <br>
-              Jad Abou-Chakra, Feras Dayoub, Niko Sunderhauf
-            </li>
-            <li>
-              <a href="contributions/li.pdf" target="_blank">Learning Explicit Infeasibility from Implicit Configuration Space Connectivity</a>
-              <br>
-              Sihui Li, Neil T. Dantam
-            </li>
-            <li>
-              <a href="contributions/nematollahi.pdf" target="_blank">Robot Skill Adaptation via Soft Actor-Critic Gaussian Mixture Models</a>
-              <br>
-              Iman Nematollahi, Erick Rosete-Beas, Adrian Röfer, Tim Welschehold, Abhinav Valada, Wolfram Burgard
-            </li>
-          </ul>
-        </p>
+        
       </div>
     </div>
 
@@ -245,36 +158,41 @@
       <div class="col">
         <h3>Organizers</h3>
         <p>
-          <ul class="invitedSpeakerList">
+          <ul class="organizersList">
             <li>
-              <a href="https://dannydriess.github.io/" target="_blank">Danny Driess</a>
+              <a href="https://dannydriess.github.io/" target="_blank">Ruiqi Ni</a>
               <br>
-              Technical University of Berlin
+              Purdue University
             </li>
             <li>
-              <a href="http://people.csail.mit.edu/liyunzhu/" target="_blank">Yunzhu Li</a>
+              <a href="http://people.csail.mit.edu/liyunzhu/" target="_blank">Yiming Li</a>
+              <br>
+              Idiap Research Institute
+            </li>
+            <li>
+              <a href="https://www.shreyaskousik.com/" target="_blank">Oswin So</a>
               <br>
               Massachusetts Institute of Technology
             </li>
             <li>
-              <a href="https://www.shreyaskousik.com/" target="_blank">Shreyas Kousik</a>
+              <a href="https://web.stanford.edu/~bohg/" target="_blank">Vittorio Giammarino</a>
               <br>
-              Stanford University
+              Purdue University
             </li>
             <li>
-              <a href="https://web.stanford.edu/~bohg/" target="_blank">Jeannette Bohg</a>
+              <a href="https://groups.csail.mit.edu/locomotion/russt.html" target="_blank">Joe Watson</a>
               <br>
-              Stanford University
+              Oxford University
             </li>
             <li>
-              <a href="https://groups.csail.mit.edu/locomotion/russt.html" target="_blank">Russ Tedrake</a>
+              <a href="http://www.marc-toussaint.net/" target="_blank">Sylvain Calinon</a>
               <br>
-              Massachusetts Institute of Technology
+              Idiap Research Institute
             </li>
             <li>
-              <a href="http://www.marc-toussaint.net/" target="_blank">Marc Toussaint</a>
+              <a href="http://www.marc-toussaint.net/" target="_blank">Ahmed H. Qureshi</a>
               <br>
-              Technical University of Berlin
+              Purdue University
             </li>
           </ul>
         </p>
@@ -287,32 +205,28 @@
         <h3>Schedule</h3>
         <p>
            <table>
-             <tr><td class="scheduleTime">08:55 - 09:00</td><td>Introduction</td></tr>
+             <tr><td class="scheduleTime">9:00 - 9:15</td><td>Opening remark and introduction</td></tr>
              <tr class="blankRow"></tr>
-             <tr><td class="scheduleTime">09:00 - 09:30</td><td>Dieter Fox</td></tr>
-             <tr><td class="scheduleTime">09:30 - 10:00</td><td>Danica Kragic</td></tr>
-             <tr><td class="scheduleTime">10:00 - 10:15</td><td>Discussion 1</td></tr>
+             <tr><td class="scheduleTime">9:15 - 9:45</td><td>Invited Talk 1</td></tr>
+             <tr><td class="scheduleTime">9:50 - 10:20</td><td>Invited Talk 2</td></tr>
+             <tr><td class="scheduleTime">10:20 - 11:20</td><td>Coffee break and poster session</td></tr>
              <tr class="blankRow"></tr>
-             <tr><td class="scheduleTime">10:15 - 10:25</td><td>Break</td></tr>
+             <tr><td class="scheduleTime">11:20 - 11:50</td><td>Invited Talk 3</td></tr>
              <tr class="blankRow"></tr>
-             <tr><td class="scheduleTime">10:25 - 10:55</td><td>Yunzhu Li and Danny Driess</td></tr>
+             <tr><td class="scheduleTime">12:00 - 12:30</td><td>Panel discussion</td></tr>
              <tr class="blankRow"></tr>
-             <tr><td class="scheduleTime">11:00 - 11:40</td><td>Spotlight Presentations</td></tr>
+             <tr><td class="scheduleTime">12:30 - 14:00</td><td>Lunch Break</td></tr>
              <tr class="blankRow"></tr>
-             <tr><td class="scheduleTime">11:40 - 13:00</td><td>Lunch Break</td></tr>
+             <tr><td class="scheduleTime">14:00 - 14:30</td><td>Paper spotlights talks</td></tr>
              <tr class="blankRow"></tr>
-             <tr><td class="scheduleTime">13:00 - 13:30</td><td>Jiajun Wu</td></tr>
-             <tr><td class="scheduleTime">13:30 - 14:00</td><td>Animesh Garg</td></tr>
-             <tr><td class="scheduleTime">14:00 - 14:15</td><td>Discussion 2</td></tr>
+             <tr><td class="scheduleTime">14:40 - 15:10</td><td>Invited Talk 4</td></tr>
+             <tr><td class="scheduleTime">15:10 - 16:10</td><td>Coffee break and poster session</td></tr>
+             <tr><td class="scheduleTime">16:10 - 16:40</td><td>Invited Talk 5</td></tr>
              <tr class="blankRow"></tr>
-             <tr><td class="scheduleTime">14:15 - 14:25</td><td>Break</td></tr>
+             <tr><td class="scheduleTime">16:45 - 17:15</td><td>Panel discussion</td></tr>
              <tr class="blankRow"></tr>
-             <tr><td class="scheduleTime">14:25 - 14:55</td><td>Igor Mordatch</td></tr>
-             <tr><td class="scheduleTime">14:55 - 15:25</td><td>Vincent Sitzmann</td></tr>
-             <tr><td class="scheduleTime">15:25 - 15:55</td><td>Andy Zeng</td></tr>
-             <tr class="blankRow"></tr>
-             <tr><td class="scheduleTime">15:55 - 16:30</td><td>Panel Discussion, Moderators: Marc Toussaint, Russ Tedrake</td></tr>
-           </table>
+             <tr><td class="scheduleTime">17:15 - 17:20</td><td>Conclusions</td></tr>
+            </table>
         </p>
       </div>
     </div>
